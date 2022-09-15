@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thirukkural</title>
+    <style>
+        .cd {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+        }
+        .card {
+            width: 590px;
+            height: 100px;
+            text-align: center;
+        }
+        .button {
+            background-color: #5cceeb; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+        }
+        .button:hover {
+            background-color:#002ead;
+            transition: 0.7s;
+        }
+        .button:active {
+        background-color: #ffbf00;
+        }
+        .text {
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <div class="cd">
+        <div class="card">
+            <p id="text" class="text"></p>
+            <button id="next" class="button">Next</button>
+        </div>
+    </div>
+   
+    
+<script src="./script.js"></script>
+</body>
+</html>
